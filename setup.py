@@ -27,8 +27,8 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'senaite.core',
-        "senaite.core==1.2.9",
+        "senaite.core>=1.2.9",
+        "senaite.core<1.3",
         'archetypes.schemaextender',
     ],
     extras_require={
